@@ -136,7 +136,7 @@ button:nth-child(1) {
 button:nth-child(2) {
     background-color: transparent;
     color: #5DB9EE;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-top: 12rem;
 }
 
@@ -172,3 +172,4 @@ button:nth-child(2):hover {
     margin-bottom: 1rem;
 
 }
+
