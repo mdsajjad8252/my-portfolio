@@ -8,11 +8,10 @@
     display: flex;
     gap: 2.5rem;
     height: 15vh;
-    width: 80%;
-    justify-content: start;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     position: fixed;
-    margin-left: 3rem;
 
 }
 
@@ -25,7 +24,7 @@
 .nav-list li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .6rem;
+    font-size: 1rem;
     color: #fFF;
     position: relative;
 
