@@ -108,36 +108,50 @@
         }
 
         .progress-bar {
-            width: 100%;
-            background: #1a1a2e;
+           width: 90%;
+            background: hsl(0, 0%, 100%);
             border-radius: 20px;
             overflow: hidden;
-            height: 12px;
-        }
+            height: 30px;
 
-        .progress {
+        }
+   span{
+         font-size: 1rem;
+
+   }
+
+.progress{
+   
             height: 100%;
             border-radius: 20px;
             color: #fff;
-            text-align: right;
-            font-size: 12px;
-            padding-right: 8px;
-            animation: grow 1.5s ease forwards;
-        }
+
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+     justify-content: right;
+  padding-right: 8px; 
+  border: none;
+ animation: grow 1.5s ease backwards; 
+            
+      
+
+        } 
 
         .html {
-            background: linear-gradient(90deg, #ff6a00, #ee0979);
-            width: 90%;
+
+                       background: linear-gradient(90deg, #554849, #854d78);
+            width:80%;
         }
 
         .css {
-            background: linear-gradient(90deg, #007cf0, #00dfd8);
-            width: 85%;
+            background: linear-gradient(90deg, #007cf0, #6da3a1);
+            width: 70%;
         }
 
         .js {
-            background: linear-gradient(90deg, #f7971e, #ffd200);
-            width: 75%;
+            background: linear-gradient(90deg, #ffd200, #b6803e);
+            width: 50%;
         }
 
         .c {
@@ -147,19 +161,16 @@
 
         .cpp {
             background: linear-gradient(90deg, #614385, #516395);
-            width: 65%;
-        }
-
-        .py {
-            background: linear-gradient(90deg, #306998, #ffd43b);
-            width: 80%;
-        }
-
-        .ai {
-            background: linear-gradient(90deg, #8e2de2, #4a00e0);
             width: 60%;
         }
 
+        .py {
+            background: linear-gradient(90deg, #ffd43b, #306998);
+            width: 20%;
+        }
+
+      
+       
         /* =========== Animations =========== */
         @keyframes fadein {
             from {
